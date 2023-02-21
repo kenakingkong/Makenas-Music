@@ -1,0 +1,58 @@
+/* GENERAL STYLE */
+body {
+	font-family: 'Modak';
+    padding: 20px 20px 20px 20px;
+    background-color: black;
+    color: magenta;
+}
+
+/* TOP SECTION */
+.top-section{
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* TOP LEFT SECTION */
+.top-left-section{
+	display: flex;
+    margin-right: 20px;
+}
+.top-left-section img{
+	border-radius: 200px;
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+}
+.top-left-section-text{}
+.top-left-section-text p{
+	color: violet;
+}
+
+
+/* TOP RIGHT SECTION */
+.top-right-section{
+	padding-left: 20px;
+    border-left: solid magenta 5px;
+    width: 30%;
+}
+.top-right-section li{
+	color: violet;
+}
+
+/* BOTTOM SECTION */
+.bottom-section{
+	margin-top: 20px;
+    border-top: solid 5px magenta;
+}
+.bottom-section-box-container{
+	display: flex;
+    justify-content: space-between;
+}
+.bottom-section-box{
+	padding: 5px 5px 5px 5px;
+    color: violet;
+}
+.bottom-section-box img{
+	height: 200px;
+}
